@@ -8,7 +8,7 @@ from gtts import gTTS
 import google.generativeai as genai
 
 # ===== CONFIGURACAO DA GEMINI =====
-genai.configure(api_key="AIzaSyAZc0OWiQR3ICPjXDoKX8seHTJk-Vqa6VY") 
+genai.configure(api_key="") 
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # ===== FUNCAO DE VOZ COM gTTS =====
